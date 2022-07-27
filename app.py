@@ -6,7 +6,7 @@ set_page_config(page_title='The Music Genre Detector', layout='wide')
 write("MUSIC GENRE CLASSIFICATION")
 
 write("Paste your lyrics and I'll tell you if it's rap or not")
-
+write("The more the lines of lyrics, the better my chance of predicting correctly")
 
 with form(key='music'):
     lyrics = text_input("Paste the whole lyrics of the song here")
