@@ -15,7 +15,7 @@ with form(key='music'):
 if submit_button:
     success('Just a moment')
 
-if button('Predict your emotion now'):
+if button('Predict now'):
     vector_ = 'vector.xz'
     model_ = 'logreg.xz'
 
