@@ -5,7 +5,7 @@ from streamlit import text_input, form, form_submit_button, markdown, write, suc
 set_page_config(page_title='The Music Genre Detector', layout='wide')
 write("MUSIC GENRE CLASSIFICATION")
 
-write("Paste your lyrics and I'll tell you if it's rap or pop")
+write("Paste your lyrics and I'll tell you if it's rap or not")
 
 
 with form(key='music'):
@@ -31,4 +31,4 @@ if button('Predict your emotion now'):
     if result[0] == 0:
         success(f"That's some sick rap lyrics there")
     else:
-        success(f"It's not rap, so it has to be pop")
+        success(f"What I see here is definitely not rap")
