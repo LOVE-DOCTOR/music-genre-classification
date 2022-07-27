@@ -1,6 +1,5 @@
 import lzma
 import pickle
-import sklearn
 from streamlit import text_input, form, form_submit_button, markdown, write, success, button, set_page_config
 
 set_page_config(page_title='The Music Genre Detector', layout='wide')
