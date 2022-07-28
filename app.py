@@ -16,8 +16,8 @@ if submit_button:
     success('Just a moment')
 
 if button('Predict now'):
-    vector_ = 'vector.xz'
-    model_ = 'logreg.xz'
+    vector_ = 'vector_random.xz'
+    model_ = 'random.xz'
 
     with lzma.open(model_, 'rb') as f:
         model = pickle.load(f)
